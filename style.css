@@ -1,0 +1,113 @@
+.section {
+    height: 120px;
+    margin-bottom: 0;
+
+}
+
+.category li {
+    margin: 25px;
+    transition: 0.2s ease-out;
+}
+
+.category :nth-child(1) {
+    margin-left: 0;
+    color: #CE830D;
+}
+
+.category li a {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.category li a i {
+    font-size: 10px;
+    margin-left: 8px !important;
+
+}
+
+.category li:hover {
+    color: #CE830D;
+
+}
+
+.icons li i {
+    font-size: 20px;
+    margin: 20px;
+    transition: 0.2s ease-out;
+
+}
+
+.icons :last-child {
+    margin-right: 0;
+}
+
+.icons li i:hover {
+    color: #CE830D;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 8% !important;
+    color: rebeccapurple !important;
+
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: white !important;
+    width: 50px !important;
+    height: 50px !important;
+    visibility: hidden;
+
+
+
+}
+
+.carousel:hover .carousel-control-prev-icon {
+    visibility: visible;
+}
+
+
+.carousel:hover .carousel-control-next-icon {
+    visibility: visible;
+}
+
+.cor {
+    position: relative;
+}
+
+.text-out {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text {
+    width: 65%;
+    color: white;
+
+}
+
+.text h2 {
+    font-size: 50px;
+}
+
+.text button {
+    padding: 14px;
+    width: 160px;
+    border: none;
+    border-radius: 50px;
+    transition: 0.5s ease;
+}
+
+.text button:hover {
+    background-color: transparent;
+}
